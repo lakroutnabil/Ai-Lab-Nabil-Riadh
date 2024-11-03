@@ -30,7 +30,6 @@ display_tasks_assigned_to(User) :-
     )).
 
 % Task 07 
-% dok n3awed na7iha
 display_completed_tasks :-
     writeln('Completed tasks:'),
     forall(task(ID, Description, Assignee, true), (
